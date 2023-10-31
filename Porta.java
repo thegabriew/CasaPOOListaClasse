@@ -10,17 +10,19 @@ public class Porta {
 	
 	Scanner scan = new Scanner (System.in);
 	
+	
 	public void redimensionar() {
 		
 		System.out.println("Insira a dimensão X: ");
-		scan.nextInt(X);
+		X = scan.nextInt();
 			
 		System.out.println("Insira a dimensão Y: ");
-		scan.nextInt(Y);
+		Y = scan.nextInt();
 	
 		System.out.println("Insira a dimensão Z: ");
-		scan.nextInt(Z);
-
+		Z = scan.nextInt();
+	
+		
 	}
 	
 	public void abre() {
